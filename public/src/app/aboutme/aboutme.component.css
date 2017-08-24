@@ -1,0 +1,56 @@
+.rounded-circle{
+
+  border-color: red;
+  border: solid 5px;
+
+}
+
+.pro_pic{
+
+  text-align: center;
+}
+
+.objective{
+  color: white;
+  text-align: center;
+
+}
+
+h4{
+  color: Red;
+}
+
+p{
+  color: white;
+}
+
+li{
+  color: white;
+}
+
+.intro{
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.77);
+}
+
+.self{
+  width: 300px;
+  height: 300px;
+}
+
+.bio{
+  padding: 0px;
+  margin: 0px;
+  background-image: url("/assets/images/golden.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:  cover;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.76);
+}
