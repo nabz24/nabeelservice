@@ -6,14 +6,14 @@ var bodyParser = require("body-parser");
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
-app.use(express.static(__dirname + '/public/dist'));
+app.use(express.static(__dirname + '/public2'));
 
 var routes = require('./server/config/routes.js')(app);
 
 app.get('*', (req, res)=>{
-  res.sendFile(path.resolve('public/dist/index.html'));
+  res.sendFile(path.resolve('/public2/index.html'));
 });
 
-app.listen(8000,() => {
+app.listen(process.env.PORT,() => {
   console.log("listening on 8000")
 });
