@@ -11,8 +11,9 @@
 }
 
 .objective{
-  color: white;
+  color: black;
   text-align: center;
+
 
 }
 
@@ -21,20 +22,24 @@ h4{
 }
 
 p{
-  color: white;
+  color: black;
 }
 
 li{
-  color: white;
+  color: black;
 }
 
 .intro{
-  /*height: 355px;*/
-  background-color: rgb(62, 62, 62);
-  padding-top: 25px;
+  /*min-height: 1000px;
+  background-color: rgb(62, 62, 62);*/
+  color: rgb(159, 37, 37);
+  padding-top: 0px;
   margin-top: 50px;
 }
 
+/*.resume{
+  background-color: rgb(62, 62, 62);
+}*/
 .self{
   /*test*/
   width: 300px;
@@ -64,21 +69,7 @@ li{
     padding: 0px;
     margin: 0px;
     /* Full height */
-    height: 100vh;
-    width: 100vw;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax2 {
-    /* The image used */
-    background-image: url("/assets/images/giants.jpg");
-    padding: 0px;
-    margin: 0px;
-    /* Full height */
-    height: 100vh;
+    height: 65vh;
     width: 100vw;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
